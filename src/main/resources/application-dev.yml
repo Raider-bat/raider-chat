@@ -1,0 +1,10 @@
+spring:
+  datasource:
+     url: jdbc:postgresql://localhost:5432/raider-chat
+     username: postgres
+     password: 1
+  jpa:
+    properties:
+      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
